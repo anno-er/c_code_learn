@@ -22,6 +22,7 @@ typedef struct Stu
 
 void Print1(stu tmp) //°´Öµ´«µÝ
 {
+	printf("age:	%s\n", tmp.age);
 	printf("name:	%s\n", tmp.name);
 }
 
