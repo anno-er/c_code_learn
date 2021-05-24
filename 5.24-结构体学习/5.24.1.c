@@ -24,12 +24,14 @@ void Print1(stu tmp) //按值传递
 {
 	printf("name:	%s\n", tmp.name);
 	printf("age:	%d\n", tmp.age);
+	pritnf("Tel:	%s\n", tmp.Tel);
 }
 
 void Print2(stu* tmp) //按指针传递(这个比较好，不会改变)
 {
 	printf("name:	%s\n", tmp->name);
 	printf("age:	%d\n", tmp->age);
+	pritnf("Tel:	%s\n", tmp->Tel);
 }
 
 int main() {
